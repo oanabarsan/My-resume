@@ -303,10 +303,13 @@ body {
     text-align: center;
     width: 95%;
     margin: 0 auto;
+    
   }
 
   .personal-info p {
     margin: 0;
+    font-size: 11px;
+
   }
   
   /*Education section*/
