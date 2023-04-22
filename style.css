@@ -80,11 +80,13 @@ body {
   text-decoration: none;
   color: white;
   cursor: pointer;
+  
 }
 
 .personal-info p {
   margin: 0;
   padding: 10px;
+  
 }
 
 .email, .phone, .location, .linkedin, .github {
@@ -97,6 +99,7 @@ body {
   height: 35px;
   font-size: 25px;
   width: 100%;
+  
 }
 
 /*Education section*/
@@ -327,6 +330,9 @@ body {
   .modules ul li {
     font-size: 13px;
   }
+  ul:last-child {
+    margin-left: 25px;
+  }
   .education-content,
   .work-content {
     padding-left: 10px;
@@ -384,5 +390,27 @@ body {
 @media (min-width: 751px) and (max-width: 950px) {
   .personal-info {
     width: 95%;
+  }
+  .image {
+    width: 100px; 
+    height: 100px;
+    display: block;
+  }
+
+  .aside-section {
+    font-size: 13px;
+  }
+
+  .aside-section-content li {
+    font-size: 12px;
+  }
+
+  .aside-icon {
+    font-size: 8px;
+    margin-right: 2px;
+  }
+
+  .lang-level {
+    font-size: 10px;
   }
 }
